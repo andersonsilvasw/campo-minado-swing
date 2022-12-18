@@ -132,5 +132,6 @@ public class Campo {
 		aberto = false;
 		marcado = false;
 		minado = false;
+		notificarObservadores(CampoEvento.REINICIAR);
 	}
 }
